@@ -16,7 +16,7 @@ Maven:
 	<dependency>
 	    <groupId>com.github.FLOERKA</groupId>
 	    <artifactId>Yandex-GPT</artifactId>
-	    <version>Tag</version>
+	    <version>1.0.0</version>
 	</dependency>
 ```
 Gradle:

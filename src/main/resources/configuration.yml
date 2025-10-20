@@ -1,11 +1,15 @@
-folder-id: 'b1gvq2emg6lmb4n597tu'
+folder-id: b1gvq2emg6lmb4n597tu
 #oauth-token: 'y0__xC30OqzBBjB3RMgusGO5BQx8opwjz8nneqSWrF-HaUrZK0RAw'
-i-am-token: 't1.9euelZqey86LnciJzJPGmcuXyZPHyO3rnpWaypmQjI6WmcqXzsqal5yRmYrl9PcZaCs4-e8WGmuv3fT3WRYpOPnvFhprr83n9euelZqcnM7NmIqLmpqQkZLMlZiZlu_8xeuelZqcnM7NmIqLmpqQkZLMlZiZlg.N--oUv3AdX-lNFHWfBp2KklJuBFthDwsCXbaoatAm9fTKp3XnPcdrjWI06ZIOtnyMkRhCdkmldKX74VnkURQBQ'
+i-am-token: t1.9euelZqey86LnciJzJPGmcuXyZPHyO3rnpWaypmQjI6WmcqXzsqal5yRmYrl9PcZaCs4-e8WGmuv3fT3WRYpOPnvFhprr83n9euelZqcnM7NmIqLmpqQkZLMlZiZlu_8xeuelZqcnM7NmIqLmpqQkZLMlZiZlg.N--oUv3AdX-lNFHWfBp2KklJuBFthDwsCXbaoatAm9fTKp3XnPcdrjWI06ZIOtnyMkRhCdkmldKX74VnkURQBQ
 max-tokens: 300
 temperature: 0.3
-system-prompt: 'Ты мой помощник'
+system-prompt: Ты мой помощник
 history:
-  - '[role:system][message:Ты мой помощник]'
+  - '[role:system][message:Ты мой помощник. Отвечай двумя словами]'
+  - '[role:user][message:Составь мне план на вечер]'
+  - '[role:assistant][message:Отдых кино]'
+  - '[role:user][message:Составь мне план на утро]'
+  - '[role:assistant][message:Завтрак пробежка]'
 client:
   connect-timeout: 10
   read-timeout: 10

@@ -4,7 +4,6 @@ import okhttp3.*;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import ru.floerka.yandexgpt.api.models.Answer;
-import ru.floerka.yandexgpt.api.models.InputMessage;
 import ru.floerka.yandexgpt.api.models.OutputMessage;
 
 import java.io.IOException;
